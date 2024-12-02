@@ -55,15 +55,17 @@ body {
         .about-widget {
             background-color: rgba(0, 0, 0, 0.5);
             color: white;
-            padding: 40px 50px;
+            padding: 0px 0px;
             text-align: center;
+            border-radius: 8px;
         }
 
         .about-widget p {
-            margin: 0;
-            font-size: 18px;
+            margin: 10, 10;
+            padding: 10px 10px;
+            font-size: 22px;
             line-height: 1.5;
-            max-width: 800px;
+            /*max-width: 1000px;*/
             display: inline-block;
         }
 
@@ -125,7 +127,7 @@ h2 {
 
 .module-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 2rem;
 }
 
